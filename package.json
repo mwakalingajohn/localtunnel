@@ -1,7 +1,7 @@
 {
   "name": "the-tunnel",
   "description": "Expose your localhost, <clone of localtunnel>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": {
     "type": "git",

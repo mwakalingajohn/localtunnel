@@ -4,7 +4,7 @@
 const openurl = require('openurl');
 const yargs = require('yargs');
 
-const localtunnel = require('../localtunnel');
+const localtunnel = require('../thetunnel');
 const { version } = require('../package');
 
 const { argv } = yargs
@@ -17,7 +17,7 @@ const { argv } = yargs
   .option('h', {
     alias: 'host',
     describe: 'Upstream server providing forwarding',
-    default: 'https://localtunnel.me',
+    default: 'http://thetunnel.ga',
   })
   .option('s', {
     alias: 'subdomain',
